@@ -6,7 +6,7 @@
   </head>
   <body>
     <?php
-    $tables = array(4,8,12,16,20,24,28,32,36 );
+    $tables = array(4,8,12,16,20,24,28,32,36,40 );
     for($i = 0; $i < count($tables); $i++){
       echo "$tables[$i] <br>";
     }
